@@ -1,0 +1,30 @@
+#about {
+}
+
+#about .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.7);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #about {
+    padding: 20px;
+  }
+}
+
+#about .jumbotron {
+  padding: 20px;
+}
+
+.h3, h3 {
+  text-align: center;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 300px;
+}
+
